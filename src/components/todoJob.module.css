@@ -1,0 +1,31 @@
+.todoLine {  
+  width: 500px;
+  color: rgb(44, 44, 95);
+  font-size: 1.2em;
+  margin: 0 auto;
+}
+
+.todoName {
+  padding: 20px;
+}
+
+.horizLine {
+  border: 1px solid #a39ca3;
+}
+
+.delButton {
+  float: right;
+  border: none;
+  border-radius: 4px;
+  background-color: #f7ca18;
+  padding: 12px 20px;
+  color: #000;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: -10px;
+}
+
+.taskCompleted {
+  text-decoration: line-through;
+  color: gray;
+}

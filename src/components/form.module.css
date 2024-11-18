@@ -1,0 +1,44 @@
+.form_group {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 50px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.input_modern {
+  width: 100%;
+  display: block;
+  color: blue;
+  border: none;
+  outline: none;
+  font-size: 1.2em;
+  font-family: "문체부 제목 돋음체", "맑은 고딕", "Courier New", Courier, monospace;
+  transition: outline 1s ease;
+}
+
+.input_modern:focus {
+  outline: none;
+}
+
+.button_modern {
+  display: inline-block;
+  border: none;
+  border-radius: 4px;
+  background-color: #d2f39a;
+  padding: 12px 20px;
+  color: navy;
+  text-shadow: 2px 2px skyblue;
+  font-weight: 500;
+  font-family: "문체부 제목 돋음체", "맑은 고딕", "Courier New", Courier,
+    monospace;
+  font-size: 1.2em;
+  cursor: pointer;
+  width: 120px;
+}
+
+.container_input {
+  display: flex;
+}
